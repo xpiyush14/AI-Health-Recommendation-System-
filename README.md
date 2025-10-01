@@ -1,6 +1,7 @@
 # AI-Health Recommendation System
 An intelligent web application that predicts potential diseases based on user-input symptoms and provides comprehensive health recommendations using a machine learning model.
 
+
 # 🌟 Key Features
 🤖 AI-Powered Predictions: Utilizes a Support Vector Classifier (SVC) model trained on a comprehensive medical dataset to accurately predict potential diseases.
 🩺 Intuitive Symptom Input: A user-friendly interface allows users to easily enter their symptoms as comma-separated text.
@@ -13,17 +14,16 @@ An intelligent web application that predicts potential diseases based on user-in
 🌐 Modern & Responsive UI: A sleek, dark-themed interface built with Bootstrap 5, HTML5, and advanced CSS for a seamless experience on any device.
 📄 Multi-Page Structure: A complete web application with dedicated pages for Home, About, Contact, Developer, and a Blog. 
 
+
 # 🛠️ Technology Stack
 # 1.) Backend Technologies
 Python: The core programming language used for the server-side logic.
 Flask: A micro web framework for Python used to build the web application, handle routing, and manage requests.
-
 # 2.) Machine Learning & Data Handling
 Scikit-learn (sklearn): The primary machine learning library used to build and train the Support Vector Classifier (SVC) model for disease prediction.
 Pandas: A data manipulation and analysis library used to load and manage the datasets (symptoms, precautions, medications, etc.) from CSV files.
 NumPy: A fundamental package for numerical computation in Python, used to create and manipulate the input vectors for the model.
 Pickle: A Python module used for serializing and de-serializing the trained machine learning model, allowing you to save and load it without retraining.
-
 # 3.) Frontend Technologies
 HTML5: The standard markup language used to create the structure and content of all the web pages (index, about, contact, etc.).
 CSS3: Used for styling the web pages, including the modern dark theme, gradients, animations, and responsive design.
@@ -39,4 +39,7 @@ Recommendation Retrieval: Based on the predicted disease, the application retrie
 Display Results: The results are dynamically rendered on the frontend within interactive modals, providing a clean and organized view of the health recommendations.
 
 # ⚠️ Disclaimer
+This AI Health Recommendation System is intended for informational purposes only. It is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of a qualified healthcare provider with any questions you may have regarding a medical condition.
+
+
 This AI Health Recommendation System is intended for informational purposes only. It is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of a qualified healthcare provider with any questions you may have regarding a medical condition.
