@@ -9,9 +9,13 @@ An intelligent web application that predicts potential diseases based on user-in
 
 📚 Comprehensive Recommendations: For a predicted disease, the system provides:
 1.)Description: A clear explanation of the condition.
+
 2.)Precautions: Recommended preventive measures.
+
 3.)Medications: A list of commonly suggested medications.
+
 4.)Diet Plan: Dietary advice to aid recovery.
+
 5.)Exercises: Suggested physical activities.
 
 🌐 Modern & Responsive UI: A sleek, dark-themed interface built with Bootstrap 5, HTML5, and advanced CSS for a seamless experience on any device.
@@ -25,12 +29,12 @@ Python: The core programming language used for the server-side logic.
 
 Flask: A micro web framework for Python used to build the web application, handle routing, and manage requests.
 
- 2.) Machine Learning & Data Handling
+Machine Learning & Data Handling
 Scikit-learn (sklearn): The primary machine learning library used to build and train the Support Vector Classifier (SVC) model for disease prediction.
 
 Pandas: A data manipulation and analysis library used to load and manage the datasets (symptoms, precautions, medications, etc.) from CSV files.
 
- NumPy: A fundamental package for numerical computation in Python, used to create and manipulate the input vectors for the model.
+NumPy: A fundamental package for numerical computation in Python, used to create and manipulate the input vectors for the model.
 
 Pickle: A Python module used for serializing and de-serializing the trained machine learning model, allowing you to save and load it without retraining.
 
