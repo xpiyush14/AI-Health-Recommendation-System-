@@ -7,7 +7,8 @@ An intelligent web application that predicts potential diseases based on user-in
 
 🩺 Intuitive Symptom Input: A user-friendly interface allows users to easily enter their symptoms as comma-separated text.
 
-📚 Comprehensive Recommendations: For a predicted disease, the system provides:
+📚 Comprehensive Recommendations: For a predicted disease, the system provides:-
+
 1.)Description: A clear explanation of the condition.
 
 2.)Precautions: Recommended preventive measures.
@@ -25,11 +26,13 @@ An intelligent web application that predicts potential diseases based on user-in
 
 # 🛠️ Technology Stack
 1.) Backend Technologies:-
+
 Python: The core programming language used for the server-side logic.
 
 Flask: A micro web framework for Python used to build the web application, handle routing, and manage requests.
 
 2.) Machine Learning & Data Handling:-
+
 Scikit-learn (sklearn): The primary machine learning library used to build and train the Support Vector Classifier (SVC) model for disease prediction.
 
 Pandas: A data manipulation and analysis library used to load and manage the datasets (symptoms, precautions, medications, etc.) from CSV files.
@@ -38,7 +41,8 @@ NumPy: A fundamental package for numerical computation in Python, used to create
 
 Pickle: A Python module used for serializing and de-serializing the trained machine learning model, allowing you to save and load it without retraining.
 
-3.) Frontend Technologies
+3.) Frontend Technologies:-
+
 HTML5: The standard markup language used to create the structure and content of all the web pages (index, about, contact, etc.).
 
 CSS3: Used for styling the web pages, including the modern dark theme, gradients, animations, and responsive design.
