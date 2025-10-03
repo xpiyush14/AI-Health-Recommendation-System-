@@ -1,4 +1,4 @@
-# AI-Health Recommendation System
+# AI Health Recommendation System
 An intelligent web application that predicts potential diseases based on user-input symptoms and provides comprehensive health recommendations using a machine learning model.
 
 
